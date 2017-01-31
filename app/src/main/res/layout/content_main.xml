@@ -10,7 +10,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="xyz.azsoftware.timusstattrak.MainActivity"
+    tools:context="xyz.jormungand.timusstattrak.MainActivity"
     tools:showIn="@layout/app_bar_main">
 
     <ProgressBar
@@ -42,13 +42,13 @@
         android:layout_toRightOf="@+id/progressBar"
         android:layout_toEndOf="@+id/progressBar"
         android:layout_marginLeft="10dp"
-        android:id="@+id/textView500" />
+        android:id="@+id/textViewHowPB" />
 
     <TextView
         android:text="0/500"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/textView500"
+        android:layout_above="@+id/textViewHowPB"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="10dp"
         android:id="@+id/textViewHow" />
@@ -57,10 +57,10 @@
         android:text="Name:"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView500"
+        android:layout_below="@+id/textViewHowPB"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="25dp"
-        android:id="@+id/textViewName"
+        android:id="@+id/textViewNameUp"
         android:textSize="18dp" />
 
     <TextView
@@ -68,7 +68,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:id="@+id/textViewEditAC"
-        android:textColor="#10263b"
+        android:textColor="@color/colorPrimaryDark"
         android:textSize="18dp"
         android:layout_below="@+id/textViewAC"
         android:layout_centerHorizontal="true"
@@ -76,26 +76,28 @@
 
         />
 
-    <EditText
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
         android:textAlignment="center"
-        android:text="Nesterova.Svetlana"
+        android:textSize="18dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Jormungand"
         android:ems="10"
-        android:id="@+id/editText"
-        android:layout_below="@+id/textViewName"
-        android:layout_toRightOf="@+id/textView0"
-        android:layout_toEndOf="@+id/textView0" />
+        android:id="@+id/textViewName"
+        android:layout_below="@+id/textViewNameUp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
 
     <TextView
         android:text="AC:"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="16dp"
         android:id="@+id/textViewAC"
         android:textSize="18dp"
-        android:layout_below="@+id/editText"
+        android:layout_below="@+id/textViewName"
         android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

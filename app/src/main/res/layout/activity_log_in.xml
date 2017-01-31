@@ -9,7 +9,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="xyz.azsoftware.timusstattrak.LogInActivity">
+    tools:context="xyz.jormungand.timusstattrak.LogInActivity">
 
     <TextView
         android:text="Добро пожаловать в Timus StatTrak"
@@ -94,6 +94,8 @@
         android:layout_alignStart="@+id/editTextForName"
         android:layout_marginTop="21dp"
         android:id="@+id/editTextTaskTOGO"
+        android:textAlignment="center"
+        android:text="1110"
         android:visibility="invisible" />
 
 </RelativeLayout>

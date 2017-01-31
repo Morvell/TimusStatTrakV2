@@ -1,4 +1,4 @@
-package xyz.azsoftware.timusstattrak;
+package xyz.jormungand.timusstattrak;
 
 import org.junit.Test;
 

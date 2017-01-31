@@ -1,4 +1,4 @@
-package xyz.azsoftware.timusstattrak.lib;
+package xyz.jormungand.timusstattrak.lib;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
