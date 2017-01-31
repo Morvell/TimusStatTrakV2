@@ -1,4 +1,4 @@
-package xyz.azsoftware.timusstattrak;
+package xyz.jormungand.timusstattrak;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("xyz.azsoftware.timusstattrak", appContext.getPackageName());
+        assertEquals("xyz.jormungand.timusstattrak", appContext.getPackageName());
     }
 }
