@@ -1,4 +1,4 @@
-package xyz.azsoftware.timusstattrak.lib;
+package xyz.jormungand.timusstattrak.lib;
 
 import android.os.AsyncTask;
 import android.os.StrictMode;

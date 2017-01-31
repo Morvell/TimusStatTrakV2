@@ -1,6 +1,5 @@
-package xyz.azsoftware.timusstattrak;
+package xyz.jormungand.timusstattrak;
 
-import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -14,16 +13,15 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import java.io.IOException;
 import java.net.URL;
 import java.util.Objects;
 
-import xyz.azsoftware.timusstattrak.lib.OriginalUserTimusData;
-import xyz.azsoftware.timusstattrak.lib.PageGetter;
-import xyz.azsoftware.timusstattrak.lib.TimusAuthor;
-import xyz.azsoftware.timusstattrak.lib.WebPageParser;
+import xyz.jormungand.timusstattrak.lib.OriginalUserTimusData;
+import xyz.jormungand.timusstattrak.lib.PageGetter;
+import xyz.jormungand.timusstattrak.lib.TimusAuthor;
+import xyz.jormungand.timusstattrak.lib.WebPageParser;
 
 public class LogInActivity extends AppCompatActivity {
 
