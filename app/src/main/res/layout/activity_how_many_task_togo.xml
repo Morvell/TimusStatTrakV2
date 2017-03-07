@@ -68,13 +68,13 @@
         android:textAppearance="@style/TextAppearance.AppCompat" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/buttonSave"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="62dp"
-        android:text="Save"
         android:layout_above="@+id/adView"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="62dp"
+        android:text="Save" />
 
 
 </RelativeLayout>
