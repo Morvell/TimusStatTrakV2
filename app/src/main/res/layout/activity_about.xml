@@ -12,13 +12,13 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="17dp"
-        android:id="@+id/textView" />
+        android:id="@+id/textViewValue" />
 
     <TextView
         android:text="v0.2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView"
+        android:layout_below="@+id/textViewValue"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="13dp"
         android:id="@+id/textView2" />
@@ -33,19 +33,20 @@
         android:id="@+id/textView3" />
 
     <TextView
-        android:text="AZSoftware"
+        android:text="@string/azsoftware"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView3"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="14dp"
-        android:id="@+id/textView4" />
+        android:linksClickable="true"
+        android:id="@+id/textViewAZSoftware" />
 
     <TextView
         android:text="Оставте ваш отзыв о нашем приложении в PlayMarket. Нам будет очень приятно"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView4"
+        android:layout_below="@+id/textViewAZSoftware"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="39dp"
         android:id="@+id/textView5"
