@@ -152,12 +152,19 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_exit) {
+        if (id == R.id.action_new_user) {
             logOut();
         }
+        else if (id == R.id.action_change_task_togo) {
+            Intent intent = new Intent(MainActivity.this,HowManyTaskTOGOActivity.class);
+            startActivity(intent);
+        }
+
 
         return super.onOptionsItemSelected(item);
     }
+
+
 
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
