@@ -13,7 +13,7 @@
         <menu>
             <item
                 android:id="@+id/nav_about"
-                android:icon="@drawable/ic_menu_share"
+                android:icon="@drawable/ic_stat_name"
                 android:title="About Program" />
         </menu>
     </item>
